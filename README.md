@@ -14,7 +14,17 @@ which ip or port to bind the server to. Default ":8888"
 #example
 listen_addr = ":8080"
 ```
-
+### users
+Do not specify [[users]] settings to make the proxy open
+```toml
+#example
+[[users]]
+username = "user1"
+password = "userpassword"
+[[users]]
+username = "user2"
+password = "userpassword"
+```
 ## how to use
 ```bash
 ./proxy -conf ./proxy.toml

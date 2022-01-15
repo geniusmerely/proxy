@@ -1,2 +1,8 @@
 bind_ip = ""
 listen_addr = ":8888"
+[[users]]
+username = "geniusmerely"
+password = "qwerty"
+[[users]]
+username = "guest"
+password = "123456"
